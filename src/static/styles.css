@@ -63,6 +63,7 @@ section h3 {
   border: 1px solid #ddd;
   border-radius: 5px;
   background-color: #f9f9f9;
+  position: relative;
 }
 
 .activity-card h4 {
@@ -141,4 +142,50 @@ footer {
   margin-top: 30px;
   padding: 20px;
   color: #666;
+}
+
+.participants-section {
+  margin-top: 12px;
+  background-color: #e3f2fd;
+  padding: 10px 12px;
+  border-radius: 5px;
+  border: 1px solid #bbdefb;
+}
+
+.participants-section strong {
+  color: #1976d2;
+  font-size: 15px;
+}
+
+.participants-list {
+  margin: 8px 0 0 0;
+  padding: 0;
+  list-style-type: none;
+  color: #333;
+  font-size: 15px;
+}
+
+.participants-list li {
+  margin-bottom: 4px;
+  padding-left: 2px;
+  display: flex;
+  align-items: center;
+}
+
+.no-participants {
+  color: #546e7a;
+  font-style: italic;
+  margin: 8px 0 0 0;
+  font-size: 14px;
+}
+/* Estilo para el ícono de eliminar */
+.delete-icon {
+  margin-left: 8px;
+  cursor: pointer;
+  color: #c62828;
+  font-size: 16px;
+  transition: color 0.2s;
+}
+.delete-icon:hover {
+  color: #b71c1c;
 }
